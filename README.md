@@ -88,12 +88,14 @@ WHERE avg_temp BETWEEN 45 AND 65
       AND happiness_ranking <=15
 ```
 
-
 ### Results and Findings
 The results are summarized thus:
 1. 11 Cities met the avearge temperature of 45 and 65.
 2. 8 Cities met the average tempreture requirement and also the average commute of less than 60.
 3. By including the criteria of happiness ranking of 15 and lower, only 2 cities were discovered to be suitable for the clients project.
+
+![chart showing the 2 suitable cities and the criteria met](https://github.com/Taciann62/SQL_PROJECTS_DOCUMENTATION/assets/132772773/af31070c-116f-492c-a2b8-0dd160f7e275)
+##### The chart above shows the two most suitable cities and the clients criteria met.
 
 ### Recommendations
 Based on the analysis, I recommend that the client:
