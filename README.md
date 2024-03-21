@@ -95,8 +95,6 @@ The results are summarized thus:
 3. By including the criteria of happiness ranking of 15 and lower, only 2 cities were discovered to be suitable for the clients project.
 
 ![chart showing the 2 suitable cities and the criteria met](https://github.com/Taciann62/SQL_PROJECTS_DOCUMENTATION/assets/132772773/af31070c-116f-492c-a2b8-0dd160f7e275)
-##### The chart above shows the two most suitable cities and the clients criteria met.
-
 ### Recommendations
 Based on the analysis, I recommend that the client:
   - Decides between the two most suitable cities, which one would best generate revenue and promise good amount of  customers to sustain the business at the site.
