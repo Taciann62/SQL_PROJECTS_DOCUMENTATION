@@ -21,7 +21,7 @@
   - [Reference(s)](reference(s))
 
 ## Project Overview
-In this data analysis project, insights are provided to the client on the best cities to host his new business. This project is carried out using my BigQuery Sandbox account. While carrying out this project, I ensure that I work closely with the client's criteria for a winning new site. The requirments includes:
+In this data analysis project, insights are provided to the client on the best cities to host his new business. This project is carried out using my BigQuery Sandbox account. While carrying out this project, I ensure that I work closely with the client's criteria for a successful new site. The requirements include:
 - Average temperature,
 - Average commute time,
 - Happiness Ranking of the cities.
@@ -36,12 +36,12 @@ The data was readily available on BigQuery as city_data and added to my project
 ### Data Preparation
 In the initial data preparation phase, I downloaded the dataset from bigquery and observed it carfully for errors, duplicates and missing values. However, this dataset was already precleaned and so does not require any cleaning. So following the instructions of the tutor, I delved into deriving insightes from the data using the clients criteia.
 
-### Exploratory Data Analyis
+### Exploratory Data Analysis
 The Exploratory Data Analysis involves asking questions to discover cities from the data that meet specific conditions, such as:
 
 - Which city has an average temperature between 45°c and 65°c?
 - What city has an average commute time of less than 60?
-- what city has a happiness ranking of between 1 and 15?
+- What city has a happiness ranking of between 1 and 15?
 
 ### Data Analysis
 Below are some queries I used for the analysis:
@@ -89,16 +89,16 @@ WHERE avg_temp BETWEEN 45 AND 65
 ```
 
 ### Results and Findings
-The results are summarized thus:
-1. 11 Cities met the avearge temperature of 45 and 65.
-2. 8 Cities met the average tempreture requirement and also the average commute of less than 60.
-3. By including the criteria of happiness ranking of 15 and lower, only 2 cities were discovered to be suitable for the clients project.
+The results are summarised thus:
+1. 11 Cities met the average temperature of 45 and 65.
+2. 8 Cities met the average temperature requirement and also the average commute of less than 60.
+3. By including the criteria of happiness ranking of 15 and lower, only 2 cities were discovered to be suitable for the client's project.
 
 ### Recommendations
 Based on the analysis, I recommend that the client:
-  - Decides between the two most suitable cities, which one would best generate revenue and promise good amount of  customers to sustain the business at the site.
+  - Decides between the two most suitable cities, which one would best generate revenue and promise a good amount of  customers to sustain the business at the site.
   - Look into the customer retention rate, income revenue and business survival rate of competitor businesses in each city.
-  - Utilize social media trends to boost customer interest in the city of choice
+  - Utilise social media trends to boost customer interest in the city of choice
   - Ensure the city requires his services and above all, look into the rules, regulations among other legal business policies governing each city before setting his business there.
 
 ### Refrence(s)
